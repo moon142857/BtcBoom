@@ -6,3 +6,17 @@
 2. 通过BTC区块的交易地址找出有B的地址
 
 3. 通过bloom filter匹配海量的地址，如果找到保存下私钥和地址
+
+
+
+代码依赖：
+sys
+time 
+urllib
+hashlib
+base58
+requests
+secrets
+secp256k1
+
+https://github.com/bitcoin-core/secp256k1.git
